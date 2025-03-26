@@ -21,5 +21,11 @@ int main() {
             printf("Invalid coin. Try again.\n");
             continue;
         }
+     
+        amount += coin;
+        printf("Total inserted: %d cents\n", amount);
+    }
 
-       
+   
+
+  

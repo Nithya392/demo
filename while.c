@@ -26,6 +26,10 @@ int main() {
         printf("Total inserted: %d cents\n", amount);
     }
 
-   
+       printf("Dispensing item...\n");
+       printf("Change returned: %d cents\n", amount - price);
+       printf("Thank you!\n");
 
-  
+    return 0;
+}
+
